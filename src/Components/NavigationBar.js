@@ -9,7 +9,7 @@ export default function NavigationBar() {
   return (
     <nav>
         <div className='logo'>
-            <FontAwesomeIcon icon={faUser} />
+            <a href='https://www.linkedin.com/in/loveragabriel/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faUser} /></a>
         </div>
         <ul className='nav-link'>
             <li><a href=''>Home</a></li>

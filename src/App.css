@@ -47,14 +47,49 @@ a{
  }
 
  .banner-section{
-  background-color: #27282b99;
+  background-color: #27282b;
   text-align:  center;
   position: relative;
   top: 15vh;
   color: #ffffff;
  }
-
- img{
- 
-  object-fit: cover;
+ #myProjects{
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  width: 95vw;
+  margin: 25px auto;
  }
+
+
+ .ProjectsSources{
+  display: flex;
+  width: 95vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+ }
+ .ProjectsSources{
+  background-color: #002663;
+ }
+img{
+  width: 300px;
+  height: 200px;
+}
+
+.Card-item img{
+  margin: 10px;
+}
+.Card-item{
+  background-color: #27282b99;
+  margin: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Card-item:hover {
+  background-color: #ffffff;
+  color: #002663;
+}
