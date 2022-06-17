@@ -16,7 +16,7 @@ nav{
   justify-content: space-between;
 }
 
- nav ul{
+ nav ul, li{
   display: flex;
   list-style: none;
   
@@ -30,6 +30,8 @@ a{
   text-decoration: none;
   color: white;
 }
+
+
 
  li{
   max-width: 95vw;
@@ -53,9 +55,9 @@ a{
   top: 15vh;
   color: #ffffff;
  }
- #myProjects{
+ #myProjects, #about-me{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #ffffff;
   width: 95vw;
   margin: 25px auto;
@@ -93,3 +95,67 @@ img{
   background-color: #ffffff;
   color: #002663;
 }
+.About-container{
+  display:flex; 
+}
+
+.details , .Contact{
+  width: 20vw;
+  background-color: #27282b80;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin: 10px;
+  flex-grow: 2;
+  text-align: center;
+  box-shadow: 3px 3px 3px #00000080;
+}
+
+.details:hover, .Contact:hover, a:hover{ 
+  background-color: #ffffff;
+  color: #002663;
+  text-align: center;
+}
+
+
+.details{
+  text-align: center;
+  padding: 10px;
+}
+
+.details :nth-child(3){
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+.Contact a  {
+  color: #8b0c0a;
+}
+.Contact h3{
+  font-size: 1.5em;
+}
+
+.contact-list li{
+  display: block;
+  justify-content: center;
+  padding: 25px;
+}
+
+
+@media (max-width: 660px){
+  .About-container{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .details , .Contact{
+    width: 95vw;
+  }
+  
+  .details img{
+   width: max-content;
+  }
+}
+
+
