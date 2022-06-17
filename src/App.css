@@ -158,4 +158,16 @@ img{
   }
 }
 
+footer{
+  text-align: center;
+  height: 5vh;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #27282b;
 
+  
+}
+footer p{
+  padding: 10px;
+  
+}

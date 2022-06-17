@@ -19,7 +19,7 @@ export default function AboutMe
             Strong communication and interpersonal skills, that make me feel comfortable working in a team.
             </p>
         </div>
-        <div className='Contact'>
+        <div className='Contact' id="contact">
             <h3>Gabriel Lovera</h3>
             <ul className='contact-list'>
                 <li>
@@ -33,11 +33,11 @@ export default function AboutMe
                     <p>GitHub</p>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/loveragabriel/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faMailBulk} /></a>
+                    <a href='mailto:loveragabriel20@gmail.com?subject=Portfolio&body=Hola%20Gabriel!%0D%0A%0D%0AEstaba%20revisando%20tu%20perfil%20y%20me%20encontr%C3%A9%20con%20tu%20portfolio.%0D%0ASaludos.'  alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faMailBulk} /></a>
                     <p>loveragabriel20@gmail.com</p>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/loveragabriel/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faPhone} /></a>
+                    <a href='https://web.whatsapp.com/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faPhone} /></a>
                     <p>+54 0911 2792 0492</p>
                 </li>
             </ul>

@@ -12,9 +12,9 @@ export default function NavigationBar() {
             <a href='https://www.linkedin.com/in/loveragabriel/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faUser} /></a>
         </div>
         <ul className='nav-link'>
-            <li><a href=''>Home</a></li>
-            <li><a href=''>Contact</a></li>
-            <li><a href=''>About me</a></li>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#about-me'>Contact</a></li>
+            <li><a href='#about-me'>About me</a></li>
         </ul>
     </nav>
   )
