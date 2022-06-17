@@ -3,6 +3,10 @@
   padding:0;
 }
 
+body{
+  margin: 5px auto;
+  background-color: #002663;
+}
 nav{
   margin: 10px auto;
   padding: 5px;
@@ -28,7 +32,29 @@ a{
 }
 
  li{
-  
+  max-width: 95vw;
   padding: 5px;
   margin: 0 auto;
+ }
+
+ .ppl-Img{
+  margin: 5px auto;
+  width: 95vw;
+  height: 45vh;
+  background-image: url(/src/Media/pplImg.jpg);
+  object-fit: cover;
+  background-size: cover;
+ }
+
+ .banner-section{
+  background-color: #27282b99;
+  text-align:  center;
+  position: relative;
+  top: 15vh;
+  color: #ffffff;
+ }
+
+ img{
+ 
+  object-fit: cover;
  }
