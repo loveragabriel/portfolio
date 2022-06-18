@@ -2,8 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser,faGuitar, faMailBulk, faPhone, faCodeCommit } from '@fortawesome/free-solid-svg-icons'
 
-<FontAwesomeIcon icon="fa-brands " />
-
 export default function AboutMe
 () {
   return (
@@ -42,7 +40,6 @@ export default function AboutMe
                 </li>
             </ul>
         </div>
-
     </div>
     </>
   )
