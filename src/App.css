@@ -100,6 +100,7 @@ img{
 }
 
 .details , .Contact{
+  color: white;
   width: 20vw;
   background-color: #27282b80;
   border-radius: 5px;
