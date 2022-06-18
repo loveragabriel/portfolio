@@ -8,7 +8,7 @@ export default function Home() {
         <div className='ppl-Img'>
             <section className='banner-section'>
             <h2>Gabriel Lovera</h2>
-            <p>Webdesign</p> 
+            <p>Desarrollo Web</p> 
             </section>  
         </div>
     </div>
