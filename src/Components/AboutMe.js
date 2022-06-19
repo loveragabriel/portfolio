@@ -9,7 +9,7 @@ export default function AboutMe
     <h2 id="about-me">About me</h2>
     <div className='About-container'>
         <div className='details'>
-            <img src="/home/loveragabriel/portfolio/src/Media/gabriel.jpg"/>
+            <img src="/home/loveragabriel/portfolio/src/Media/Gabriel_Lovera.png"/>
             <p>Web Design, creating websites for professionals</p>
             <h4>Portfolio</h4>
             <p>I have been learnig about website, the design, functionallity and interaction.The last month a have gain knowled on HTLM, CSS, JavaScript and React<br/>

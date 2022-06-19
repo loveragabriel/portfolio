@@ -99,6 +99,12 @@ img{
   display:flex; 
 }
 
+.details img{
+  background-image: url(/src/Media/Gabriel_Lovera.png);
+  object-fit: cover;
+  background-size: cover;
+
+}
 .details , .Contact{
   color: white;
   width: 20vw;
@@ -155,7 +161,10 @@ img{
   }
   
   .details img{
-   width: max-content;
+   width: 90vw;
+   max-height: 100vh;
+  object-fit: cover;
+  background-size: cover;
   }
 }
 
