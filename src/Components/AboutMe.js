@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser,faGuitar, faMailBulk, faPhone, faCodeCommit } from '@fortawesome/free-solid-svg-icons'
+import { faUser,faGuitar, faMailBulk, faMobile, faCodeCommit } from '@fortawesome/free-solid-svg-icons'
 
 export default function AboutMe
 () {
@@ -35,7 +35,7 @@ export default function AboutMe
                     <p>loveragabriel20@gmail.com</p>
                 </li>
                 <li>
-                    <a href='https://web.whatsapp.com/' alt="LinkedIn profile" target="_blank"><FontAwesomeIcon icon={faPhone} /></a>
+                <a href='https://wa.me/5491527920492?text=Hola%20Gabriel%20estaba%20revisando%20tu%20portfolio%20y%20me%20interesa%20contactarte%20,%20Saludos!'><FontAwesomeIcon icon={faMobile} /></a>
                     <p>+54 0911 2792 0492</p>
                 </li>
             </ul>
